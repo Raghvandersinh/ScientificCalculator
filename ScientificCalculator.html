@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                Scientific Calculator
+            </title>
+            <link rel="stylesheet" href="Style.css" type="text/css">
+            <script type="text/javascript" src="functions.js"></script>
+        </head>
+        <body>
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <textarea id="output" cols="30" rows="1" readonly></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="x²" onclick="addToOutput('x²')">
+                    </td>
+                    <td>
+                        <input type="button" value="√" onclick="addToOutput('√')">
+                    </td>
+                    <td>
+                        <input type="button" value="&pi;" onclick="addToOutput('π')">
+                    </td>
+                    <td>
+                        <input type="button" value="C"  onclick="clearOutput()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="sin" onclick="addToOutput('sin')">
+                    </td>
+                    <td>
+                        <input type="button" value="cos" onclick="addToOutput('cos')">
+                    </td>
+                    <td>
+                        <input type="button" value="tan" onclick="addToOutput('tan')">
+                    </td>
+                    <td>
+                        <input type="button" value="*" onclick="addToOutput('*')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" onclick="addToOutput('1')">
+                    </td>
+                    <td>
+                        <input type="button" value="2" onclick="addToOutput('2')">
+                    </td>
+                    <td>
+                        <input type="button" value="3" onclick="addToOutput('3')">
+                    </td>
+                    <td>
+                        <input type="button" value="/" onclick="addToOutput('/')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" onclick="addToOutput('4')">
+                    </td>
+                    <td>
+                        <input type="button" value="5" onclick="addToOutput('5')">
+                    </td>
+                    <td>
+                        <input type="button" value="6" onclick="addToOutput('6')">
+                    </td>
+                    <td>
+                        <input type="button" value="+" onclick="addToOutput('+')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="7" onclick="addToOutput('7')">
+                    </td>
+                    <td>
+                        <input type="button" value="8" onclick="addToOutput('8')">
+                    </td>
+                    <td>
+                        <input type="button" value="9" onclick="addToOutput('9')">
+                    </td>
+                    <td>
+                        <input type="button" value="-" onclick="addToOutput('-')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                         <input type="button" value="." onclick="addToOutput('.')">
+                    </td>
+                    <td>
+                        <input type="button" value="0" onclick="addToOutput('0')">
+                    </td>
+                    <td>
+                        <input type="button" value='&lpar;' onclick="addToOutput('&lpar')">
+                    </td>
+                    <td>
+                        <input type="button" value='&rpar;' onclick="addToOutput('&rpar')">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="button" value="=" onclick="addToOutput('=')">
+                    </td>
+                </tr>
+            </table>
+        </body>
+    </html>
